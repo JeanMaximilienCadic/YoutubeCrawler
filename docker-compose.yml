@@ -1,9 +1,10 @@
 version: '2.3'
 
 services:
- vanilla:
+ youtube_crawler:
   image: jcadic/youtube_crawler
-  container_name: youtube-crawler
+  container_name: youtube_crawler
   volumes:
-    - "./__data__:/tmp/YoutubeCrawler/youtube_crawler/__data__"
+    - "youtube_crawler/__data__:/tmp/YoutubeCrawler/youtube_crawler/__data__"
   command: tail -F anything
+
