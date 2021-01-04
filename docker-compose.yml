@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+ vanilla:
+  image: jcadic/youtube_crawler
+  container_name: youtube-crawler
+  volumes:
+    - "./__data__:/tmp/YoutubeCrawler/youtube_crawler/__data__"
+  command: tail -F anything
