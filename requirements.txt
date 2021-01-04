@@ -3,3 +3,4 @@ tqdm
 pyJson
 librosa
 gnutools-python
+nagisa
