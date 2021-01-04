@@ -22,6 +22,6 @@ By launching the container as a daemon:
 
 Then you can run a example and download 10 videos from youtube by running
 ```
-docker exec -it youtube_crawler python main.py
+docker exec -it youtube_crawler python -m youtube_crawler
 ```
 

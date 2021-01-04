@@ -4,6 +4,11 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import numpy as np
 import copy
 import nagisa
+import os
+from gnutools.utils import parent
+
+__CURRENT_DIR__ = parent(os.path.realpath(__file__))
+
 
 class CaptionFilterer(dict):
     def __init__(self, d, stats):
