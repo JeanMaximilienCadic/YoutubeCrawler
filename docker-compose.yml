@@ -5,6 +5,6 @@ services:
   image: jcadic/youtube_crawler
   container_name: youtube_crawler
   volumes:
-    - "youtube_crawler/__data__:/tmp/YoutubeCrawler/youtube_crawler/__data__"
+    - "./youtube_crawler/__data__:/tmp/YoutubeCrawler/youtube_crawler/__data__"
   command: tail -F anything
 
