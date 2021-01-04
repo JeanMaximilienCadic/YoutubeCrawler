@@ -22,6 +22,6 @@ By launching the container as a daemon:
 
 Then you can run a example and download 10 videos from youtube by running
 ```
-docker run -it --rm jcadic/youtube_crawler python main.py
+docker exec -it youtube_crawler python main.py
 ```
 
