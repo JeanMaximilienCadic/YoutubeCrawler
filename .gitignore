@@ -1,1 +1,5 @@
-results.json
+.git
+.idea
+audio
+*__data__*
+etc
